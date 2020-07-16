@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html  >
 <head>
-  <!-- Site made with Mobirise Website Builder v4.12.0, https://mobirise.com -->
+  
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Mobirise v4.12.0, mobirise.com">
+  
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="assets/images/logo2.png" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/images/logo4.png" type="image/x-icon">
   <meta name="description" content="Web Page Maker Description">
   
   <title>Ecommerce</title>
@@ -14,9 +14,9 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/socicon/css/styles.css">
-  <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
@@ -24,41 +24,11 @@
   
 </head>
 <body>
-  <section class="menu cid-s43ce6ng54" once="menu" id="menu2-2">
 
-    
+<section id='top-1'></section>
 
-    <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </button>
-        <div class="menu-logo">
-            <div class="navbar-brand">
-                
-                <span class="navbar-caption-wrap"><a class="navbar-caption text-primary display-5" href="index.html"><span style="font-weight: normal;">eSpider.io | eCommerce Web Experts</span></a></span>
-            </div>
-        </div>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item">
-                    <a class="nav-link link text-black display-4" href="page1.html">Build Your Ecommerce Site</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link link text-black display-4" href="page2.html">
-                        About Us
-                    </a>
-                </li><li class="nav-item"><a class="nav-link link text-black display-4" href="page3.html">
-                        Contact</a></li></ul>
-            
-        </div>
-    </nav>
-</section>
 
-<section class="engine"><a href="https://mobirise.info/b">how to create your own site for free</a></section><section class="header1 cid-s43cVu0rD0 mbr-parallax-background" id="header16-3">
+  <section class="header1 cid-s43cVu0rD0 mbr-parallax-background" id="header16-3">
 
     
 
@@ -108,7 +78,7 @@
     <div class="container">
         <div class="media-container-row">
             <div class="mbr-figure" style="width: 70%;">
-                <img src="assets/images/cartss.png" alt="Mobirise" title="">
+                <img src="assets/images/cartss.png" alt="" title="">
             </div>
 
             <div class="media-content">
@@ -119,10 +89,63 @@
                          Expand your market base in a global scale. Showcase and Sell your Goods or Services to anyone and everyone around the globe.
                     </p>
                 </div>
-                
+                <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="javascript:OpenModal('Products')">LEARN MORE</a></div>
             </div>
         </div>
     </div>
+
+</section>
+
+<section class="mbr-section" id="witsec-modal-window-block-1a" data-rv-view="311">
+
+	<style>
+	/* Let's not animate the contents of modal windows */
+	.no-anim {
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	</style>
+
+	
+	
+	<div><div class="modal " id="Products" tabindex="-1" role="dialog" aria-labelledby="ProductsLabel" aria-hidden="true">  <div class="modal-dialog  modal-dialog-centered" style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="ProductsLabel"></h5>  <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="Products_body">Modal body text goes here.</div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#Products").on("hidden.bs.modal", function () {    var html = $( "#Products_body" ).html();    $( "#Products_body" ).empty();    $( "#Products_body" ).append(html);  })});</script></div>
+
+	<script>
+	if (typeof OpenModal === 'undefined') {
+		OpenModal = function(modalName) {
+			if ($('#' + modalName).length)
+				$('#' + modalName).modal('show');
+			else
+				alert("Sorry, but there is no modal for " + modalName);
+		}
+	}
+
+	function modalSetCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function modalGetCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i <ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+	</script>
 
 </section>
 
@@ -135,7 +158,7 @@
     <div class="container">
         <div class="media-container-row">
             <div class="mbr-figure" style="width: 70%;">
-                <img src="assets/images/payment-intergration-818x379.png" alt="Mobirise" title="">
+                <img src="assets/images/payment-intergration-818x379.png" alt="" title="">
             </div>
 
             <div class="media-content">
@@ -161,7 +184,7 @@
     <div class="container">
         <div class="media-container-row">
             <div class="mbr-figure" style="width: 75%;">
-                <img src="assets/images/cloud-hosting-690x524.png" alt="Mobirise" title="">
+                <img src="assets/images/cloud-hosting-690x524.png" alt="" title="">
             </div>
 
             <div class="media-content">
@@ -188,7 +211,7 @@
     <div class="container">
         <div class="media-container-row">
             <div class="mbr-figure" style="width: 70%;">
-                <img src="assets/images/seo.spider.lk-818x606.png" alt="Mobirise" title="">
+                <img src="assets/images/seo.spider.lk-818x606.png" alt="" title="">
             </div>
 
             <div class="media-content">
@@ -213,7 +236,7 @@
     <div class="container">
         <div class="media-container-row">
             <div class="mbr-figure" style="width: 70%;">
-                <img src="assets/images/responsive-design.spider.lk-1368x855.png" alt="Mobirise" title="">
+                <img src="assets/images/responsive-design.spider.lk-1368x855.png" alt="" title="">
             </div>
 
             <div class="media-content">
@@ -239,7 +262,7 @@
     <div class="container">
         <div class="media-container-row">
             <div class="mbr-figure" style="width: 105%;">
-                <img src="assets/images/chat.spider.lk-1042x772.png" alt="Mobirise" title="">
+                <img src="assets/images/chat.spider.lk-1042x772.png" alt="" title="">
             </div>
 
             <div class="media-content">
@@ -267,7 +290,7 @@
     <div class="container">
         <div class="media-container-row">
             <div class="mbr-figure" style="width: 90%;">
-                <img src="assets/images/secured-1-818x379.png" alt="Mobirise" title="">
+                <img src="assets/images/secured-1-818x379.png" alt="" title="">
             </div>
 
             <div class="media-content">
@@ -295,7 +318,7 @@
     <div class="container">
         <div class="media-container-row">
             <div class="mbr-figure" style="width: 70%;">
-                <img src="assets/images/analytics-818x606.png" alt="Mobirise" title="">
+                <img src="assets/images/analytics-818x606.png" alt="" title="">
             </div>
 
             <div class="media-content">
@@ -322,7 +345,7 @@
     <div class="container">
         <div class="media-container-row">
             <div class="mbr-figure" style="width: 70%;">
-                <img src="assets/images/technologies.static.spider-1-818x273.png" alt="Mobirise" title="">
+                <img src="assets/images/technologies.static.spider-1-818x273.png" alt="" title="">
             </div>
 
             <div class="media-content">
@@ -523,7 +546,7 @@
             <div class="col-md-3 col-sm-4">
                 <div class="mb-3 img-logo">
                     
-                        <img src="assets/images/spider.lk.logo.wh.png" alt="Mobirise" title="">
+                        <img src="assets/images/spider.lk.logo.wh.png" alt="" title="">
                     
                 </div>
                 <p class="mb-3 mbr-fonts-style foot-title display-7">
@@ -547,7 +570,7 @@
                 </p>
                 <div class="media-container-column" data-form-type="formoid">
                     <!---Formbuilder Form--->
-                    <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="RrIGauF+deR4ypq5GfFtNxiI84OAyLj09dgE9dG7dglQNUDTuQWrMXfQVxZF9dVpYqtL2QvTc0QarWo+x2JDhIxjg4ZcXmGhoB9mlFET2J9i2V+29gKOWSg3wqeRGr1X">
+                    <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="eqhoWZNM+Px/7qQscLNVEUnoyaksr6X2HRxuDbokdpbgcyy71lzP64IJ8BCC/w/nUca4xoJGID64/hJLmlFMavVavYmIDqhrpNVj8TdSDFiJMSro9/v88BlOUknnlQqM">
                         <div class="row form-inline justify-content-center">
                             <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
                             <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
@@ -583,20 +606,76 @@
     </div>
 </section>
 
+<section class="extMenu5 menu cid-sTy869q3IC" once="menu" id="design-block-sTy869q3IC">
+
+    
+  
+
+    <nav class="navbar navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
+      
+              
+      
+
+               
+   
+       
+  
+      <div class="menu-bottom">
+            <div class="menu-logo">
+                <div class="navbar-brand">
+                    
+                    <span class="navbar-caption-wrap"><a href="https://mobirise.com" class="brand-name mbr-black mbr-bold text-secondary display-5">MobiRise</a></span>
+                </div>
+            </div>
+
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav-dropdown js-float-line nav-right" data-app-modern-menu="true"><li class="nav-item">
+                        <a class="nav-link link mbr-black text-black display-4" href="index.html">
+                            Home</a>
+                    </li>
+                    
+
+                    
+
+                    <li class="nav-item">
+                        <a class="nav-link link mbr-black text-black display-4" href="page1.html">
+                            Ecommerce</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link mbr-black text-black display-4" href="page3.html">Contact</a>
+                    </li></ul>
+
+                
+
+            </div>
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+        </div>
+  </nav>
+</section>
+
 
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/popper/popper.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/tether/tether.min.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/parallax/jarallax.min.js"></script>
   <script src="assets/dropdown/js/nav-dropdown.js"></script>
   <script src="assets/dropdown/js/navbar-dropdown.js"></script>
   <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
-  <script src="assets/parallax/jarallax.min.js"></script>
-  <script src="assets/tether/tether.min.js"></script>
   <script src="assets/theme/js/script.js"></script>
+  <script src="assets/witsec-mailform/witsec-mailform.js"></script>
   <script src="assets/formoid/formoid.min.js"></script>
   
   
- <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
-  </body>
+</body>
 </html>
